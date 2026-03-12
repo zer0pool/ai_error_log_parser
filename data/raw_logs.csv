@@ -1,0 +1,7 @@
+id,trace_log
+1,"fin_history_sensor_order_table failed. Timeout after 72 hours."
+2,"google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'mart_sales'."
+3,"Access Denied: 403. Service account lacks permission to write to dataset 'production'."
+4,"DataFrame columns mismatch. Expected ['id', 'val'], found ['id', 'value']."
+5,"Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service."
+6,"MemoryError: Unable to allocate 4.0 GiB for array in pandas processing."

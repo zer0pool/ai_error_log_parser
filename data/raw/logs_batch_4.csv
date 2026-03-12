@@ -1,0 +1,101 @@
+id,trace_log
+301,Connection reset by peer while uploading results to BigQuery GCS stage for table click_logs.
+302,"DataFrame columns mismatch. Expected ['event_time', 'user_ip'], found ['id', 'value'] in notebook job 9814."
+303,fin_history_sensor_mart_sales failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+304,google.api_core.exceptions.Forbidden: 403 Access Denied: Project sandbox-data-123. Service account airflow-worker@prod-project.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table user_profile.
+305,google.api_core.exceptions.Forbidden: 403 Access Denied: Project dw-mart-analytics. Service account airflow-worker@prod-project.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table revenue_daily.
+306,ModuleNotFoundError: No module named 'scikit-learn'. Please check requirements.txt for GKE execution environment.
+307,fin_history_sensor_user_profile failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+308,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_447975
+309,"DataFrame columns mismatch. Expected ['id', 'user_id', 'amount'], found ['id', 'value'] in notebook job 3014."
+310,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+311,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'user_profile'. Field 'updated_at' is missing or has different type.
+312,"DataFrame columns mismatch. Expected ['id', 'user_id', 'amount'], found ['id', 'value'] in notebook job 8875."
+313,MemoryError: Unable to allocate 4.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+314,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'user_profile'. Field 'updated_at' is missing or has different type.
+315,Unknown Airflow Exception in task processing_2902: Internal server error triggered by unexpected upstream response.
+316,google.api_core.exceptions.Forbidden: 403 Access Denied: Project dw-mart-analytics. Service account bq-loader@sandbox.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table click_logs.
+317,MemoryError: Unable to allocate 8.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+318,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'order_info'. Field 'updated_at' is missing or has different type.
+319,MemoryError: Unable to allocate 4.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+320,fin_history_sensor_click_logs failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+321,fin_history_sensor_click_logs failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+322,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'mart_sales'. Field 'updated_at' is missing or has different type.
+323,"DataFrame columns mismatch. Expected ['event_time', 'user_ip'], found ['id', 'value'] in notebook job 5478."
+324,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+325,Unknown Airflow Exception in task processing_8218: Internal server error triggered by unexpected upstream response.
+326,"DataFrame columns mismatch. Expected ['id', 'user_id', 'amount'], found ['id', 'value'] in notebook job 3400."
+327,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'revenue_daily'. Field 'updated_at' is missing or has different type.
+328,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'mart_sales'. Field 'updated_at' is missing or has different type.
+329,Unknown Airflow Exception in task processing_9919: Internal server error triggered by unexpected upstream response.
+330,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'user_profile'. Field 'updated_at' is missing or has different type.
+331,"DataFrame columns mismatch. Expected ['id', 'val'], found ['id', 'value'] in notebook job 3742."
+332,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+333,Connection reset by peer while uploading results to BigQuery GCS stage for table mart_sales.
+334,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_449035
+335,"DataFrame columns mismatch. Expected ['event_time', 'user_ip'], found ['id', 'value'] in notebook job 1214."
+336,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'order_info'. Field 'updated_at' is missing or has different type.
+337,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'order_info'. Field 'updated_at' is missing or has different type.
+338,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_640357
+339,fin_history_sensor_user_profile failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+340,ModuleNotFoundError: No module named 'scikit-learn'. Please check requirements.txt for GKE execution environment.
+341,MemoryError: Unable to allocate 4.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+342,ModuleNotFoundError: No module named 'pyarrow'. Please check requirements.txt for GKE execution environment.
+343,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+344,google.api_core.exceptions.Forbidden: 403 Access Denied: Project sandbox-data-123. Service account bq-loader@sandbox.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table order_info.
+345,fin_history_sensor_user_profile failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+346,MemoryError: Unable to allocate 8.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+347,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+348,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+349,fin_history_sensor_click_logs failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+350,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'revenue_daily'. Field 'updated_at' is missing or has different type.
+351,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'order_info'. Field 'updated_at' is missing or has different type.
+352,Connection reset by peer while uploading results to BigQuery GCS stage for table user_profile.
+353,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_733602
+354,MemoryError: Unable to allocate 16.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+355,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'order_info'. Field 'updated_at' is missing or has different type.
+356,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+357,fin_history_sensor_order_info failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+358,ModuleNotFoundError: No module named 'pyarrow'. Please check requirements.txt for GKE execution environment.
+359,"DataFrame columns mismatch. Expected ['id', 'val'], found ['id', 'value'] in notebook job 8496."
+360,fin_history_sensor_user_profile failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+361,fin_history_sensor_revenue_daily failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+362,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+363,google.api_core.exceptions.Forbidden: 403 Access Denied: Project sandbox-data-123. Service account bq-loader@sandbox.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table user_profile.
+364,Connection reset by peer while uploading results to BigQuery GCS stage for table mart_sales.
+365,"DataFrame columns mismatch. Expected ['event_time', 'user_ip'], found ['id', 'value'] in notebook job 4780."
+366,ModuleNotFoundError: No module named 'tensorflow'. Please check requirements.txt for GKE execution environment.
+367,MemoryError: Unable to allocate 8.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+368,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_451218
+369,google.api_core.exceptions.Forbidden: 403 Access Denied: Project dw-mart-analytics. Service account bq-loader@sandbox.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table order_info.
+370,ModuleNotFoundError: No module named 'pyarrow'. Please check requirements.txt for GKE execution environment.
+371,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+372,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+373,MemoryError: Unable to allocate 4.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+374,fin_history_sensor_user_profile failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+375,google.cloud.bigquery.dbapi.OperationalError: 400 Provided Schema does not match the target table 'mart_sales'. Field 'updated_at' is missing or has different type.
+376,ModuleNotFoundError: No module named 'pyarrow'. Please check requirements.txt for GKE execution environment.
+377,ModuleNotFoundError: No module named 'pyarrow'. Please check requirements.txt for GKE execution environment.
+378,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_918484
+379,MemoryError: Unable to allocate 8.0 GiB for array in pandas processing. Task killed by GKE scheduler.
+380,Connection reset by peer while uploading results to BigQuery GCS stage for table revenue_daily.
+381,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_222696
+382,Connection reset by peer while uploading results to BigQuery GCS stage for table mart_sales.
+383,google.api_core.exceptions.Forbidden: 403 Access Denied: Project dw-mart-analytics. Service account airflow-worker@prod-project.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table user_profile.
+384,Unknown Airflow Exception in task processing_3745: Internal server error triggered by unexpected upstream response.
+385,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+386,Connection reset by peer while uploading results to BigQuery GCS stage for table user_profile.
+387,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_244516
+388,google.api_core.exceptions.Forbidden: 403 Access Denied: Project sandbox-data-123. Service account airflow-worker@prod-project.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table mart_sales.
+389,Connection reset by peer while uploading results to BigQuery GCS stage for table click_logs.
+390,Connection reset by peer while uploading results to BigQuery GCS stage for table revenue_daily.
+391,google.api_core.exceptions.Forbidden: 403 Access Denied: Project dw-mart-analytics. Service account airflow-worker@prod-project.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table mart_sales.
+392,fin_history_sensor_order_info failed. Timeout after 72 hours. Last poke at 2024-03-12 10:00:00.
+393,Job execution exceeded the hard limit of 6 hours and was cancelled by the BigQuery service. Job ID: bq_job_503037
+394,ModuleNotFoundError: No module named 'scikit-learn'. Please check requirements.txt for GKE execution environment.
+395,"DataFrame columns mismatch. Expected ['id', 'val'], found ['id', 'value'] in notebook job 8853."
+396,Unknown Airflow Exception in task processing_4743: Internal server error triggered by unexpected upstream response.
+397,google.api_core.exceptions.Forbidden: 403 Access Denied: Project prod-data-project. Service account bq-loader@sandbox.iam.gserviceaccount.com lacks BigQuery Data Editor permission for table mart_sales.
+398,ModuleNotFoundError: No module named 'tensorflow'. Please check requirements.txt for GKE execution environment.
+399,Permission denied (publickey) when trying to establish SSH tunnel to remote Notebook server 10.128.0.45.
+400,Unknown Airflow Exception in task processing_6789: Internal server error triggered by unexpected upstream response.
