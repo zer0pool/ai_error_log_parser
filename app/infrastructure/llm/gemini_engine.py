@@ -6,7 +6,7 @@ from app.domain.entity.analysis import AnalysisResult, JobMetadata
 from app.domain.repository.analysis_engine import AnalysisEngine
 
 class GeminiAnalysisEngine(AnalysisEngine):
-    def __init__(self, model_name: str = "gemini-1.5-flash"):
+    def __init__(self, model_name: str = "gemini-2.0-flash"):
         self.llm = ChatGoogleGenerativeAI(model=model_name)
 
     def analyze(
