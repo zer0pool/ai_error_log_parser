@@ -49,7 +49,7 @@ setup-data:
 
 # ── run ────────────────────────────────────────────────────────────────────
 run-api:
-	$(RUN) uvicorn app.api.main:app --host 0.0.0.0 --port 8000 --reload
+	$(RUN) uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 run-admin:
 	$(RUN) streamlit run admin/dashboard.py
