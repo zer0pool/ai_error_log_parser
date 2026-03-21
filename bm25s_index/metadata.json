@@ -1,0 +1,32 @@
+[
+  {
+    "error_id": "E001",
+    "category": "DEPENDENCY_ISSUES",
+    "resolution": "Add the missing package to your requirements.txt or rebuild the Docker image."
+  },
+  {
+    "error_id": "E010",
+    "category": "PERMISSION",
+    "resolution": "Check the IAM roles for the service account and ensure it has access to both BigQuery and the underlying source (e.g., Google Drive)."
+  },
+  {
+    "error_id": "E012",
+    "category": "SCHEMA_ISSUES",
+    "resolution": "Align the column names and types between the query and the target table."
+  },
+  {
+    "error_id": "E013",
+    "category": "SCHEMA_ISSUES",
+    "resolution": "Explicitly define the schema instead of relying on automatic inference."
+  },
+  {
+    "error_id": "E014",
+    "category": "DELIVERY_ERRORS",
+    "resolution": "Check network latency or increase the timeout setting in the operator."
+  },
+  {
+    "error_id": "E018",
+    "category": "LOGIC_ERRORS",
+    "resolution": "Verify the path or table name and ensure it was created in previous steps."
+  }
+]

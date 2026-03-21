@@ -1,0 +1,6 @@
+{"id":0,"text":"E001 Required python package is missing in the execution environment. ModuleNotFoundError: No module named 'pandas' ValueError: Please install the 'db-dtypes' package to use this function"}
+{"id":1,"text":"E010 User does not have sufficient permissions to access the resource (BigQuery, Drive, etc.). "}
+{"id":2,"text":"E012 The query result schema does not match the destination table schema. BadRequest: 400 Provided schema does not match. Field 'amount' has changed type from INT64 to FLOAT64"}
+{"id":3,"text":"E013 Failed to automatically infer BigQuery schema from DataFrame. pyarrow.lib.ArrowTypeError: Could not convert FLOAT64 to INT64"}
+{"id":4,"text":"E014 Data delivery operation exceeded the time limit. AirflowSensorTimeout: Timeout reached DELIVERY_TIMEOUT: Execution time has exceeded the time limit"}
+{"id":5,"text":"E018 The specified source file or destination table does not exist. NotFound: 404 Not found: Table project.dataset.table FileNotFoundError: [Errno 2] No such file or directory: '/tmp/data.csv'"}

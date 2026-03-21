@@ -1,0 +1,74 @@
+[
+    {
+        "error_id": "E001",
+        "pattern_name": "Missing Python Module",
+        "pattern_type": "regex",
+        "pattern": "(?:ModuleNotFoundError: No module named '[VAR]')|(?:ValueError: Please install the '[VAR]' package)",
+        "category": "DEPENDENCY_ISSUES",
+        "description": "Required python package is missing in the execution environment.",
+        "resolution_step": "Add the missing package to your requirements.txt or rebuild the Docker image.",
+        "representative_examples": [
+            "ModuleNotFoundError: No module named 'pandas'",
+            "ValueError: Please install the 'db-dtypes' package to use this function"
+        ]
+    },
+    {
+        "error_id": "E010",
+        "pattern_name": "Permission Denied",
+        "pattern_type": "regex",
+        "pattern": "Forbidden: 403 Access Denied|Permission denied",
+        "category": "PERMISSION",
+        "description": "User does not have sufficient permissions to access the resource (BigQuery, Drive, etc.).",
+        "resolution_step": "Check the IAM roles for the service account and ensure it has access to both BigQuery and the underlying source (e.g., Google Drive)."
+    },
+    {
+        "error_id": "E012",
+        "pattern_name": "Schema Mismatch",
+        "pattern_type": "simple_string",
+        "pattern": "BadRequest: 400 Provided schema does not match|Invalid schema update",
+        "category": "SCHEMA_ISSUES",
+        "description": "The query result schema does not match the destination table schema.",
+        "resolution_step": "Align the column names and types between the query and the target table.",
+        "representative_examples": [
+            "BadRequest: 400 Provided schema does not match. Field 'amount' has changed type from INT64 to FLOAT64"
+        ]
+    },
+    {
+        "error_id": "E013",
+        "pattern_name": "Schema Inference Failure",
+        "pattern_type": "regex",
+        "pattern": "augment_schema|pyarrow\\.lib\\.check_status",
+        "category": "SCHEMA_ISSUES",
+        "description": "Failed to automatically infer BigQuery schema from DataFrame.",
+        "resolution_step": "Explicitly define the schema instead of relying on automatic inference.",
+        "representative_examples": [
+            "pyarrow.lib.ArrowTypeError: Could not convert FLOAT64 to INT64"
+        ]
+    },
+    {
+        "error_id": "E014",
+        "pattern_name": "Delivery Timeout",
+        "pattern_type": "simple_string",
+        "pattern": "AirflowSensorTimeout|DELIVERY_TIMEOUT: Execution time has exceeded",
+        "category": "DELIVERY_ERRORS",
+        "description": "Data delivery operation exceeded the time limit.",
+        "resolution_step": "Check network latency or increase the timeout setting in the operator.",
+        "representative_examples": [
+            "AirflowSensorTimeout: Timeout reached",
+            "DELIVERY_TIMEOUT: Execution time has exceeded the time limit"
+        ]
+    },
+    {
+        "error_id": "E018",
+        "pattern_name": "File or Table Not Found",
+        "pattern_type": "simple_string",
+        "pattern": "NotFound: 404 Not found: Table|FileNotFoundError: \\[Errno 2\\] No such file or directory",
+        "category": "LOGIC_ERRORS",
+        "description": "The specified source file or destination table does not exist.",
+        "resolution_step": "Verify the path or table name and ensure it was created in previous steps.",
+        "representative_examples": [
+            "NotFound: 404 Not found: Table project.dataset.table",
+            "FileNotFoundError: [Errno 2] No such file or directory: '/tmp/data.csv'"
+        ]
+    }
+]
