@@ -1,8 +1,10 @@
 import json
-import chromadb
+
 import bm25s
-from Stemmer import Stemmer
+import chromadb
 from langchain_huggingface import HuggingFaceEmbeddings
+from Stemmer import Stemmer
+
 
 def prepare_hybrid_indices(file_path="data/error_definitions.json"):
     # 1. 데이터 로드
